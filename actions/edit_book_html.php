@@ -7,7 +7,7 @@
   foreach($get_one_book as $book):
 ?>
 
-<div class="container w-75 border p-3">
+<div class="container w-75 border p-3 shadow bg-body rounded mb-3">
 <form action="actions/edit_model.php" method="post" enctype="multipart/form-data">
     <div class="row g-3">
       <div class="col-sm-7">

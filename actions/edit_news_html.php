@@ -5,7 +5,7 @@
   $get_one_news =  getOneRecordNews($news_id);
   foreach($get_one_news as $news):
 ?>
-<div class="container w-75 border p-3">
+<div class="container w-75 border p-3 shadow-lg mb-5 bg-body rounded">
   <form action="actions/edit_model.php" method="post" enctype="multipart/form-data">
     <div class="row g-3">
       <div class="col-sm-7">

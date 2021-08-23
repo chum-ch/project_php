@@ -23,7 +23,10 @@
     }
   }
 </style>
-<?php include_once('partial/header.php');?>
+<?php 
+  include_once('partial/header.php');
+  include_once('partial/navbar.php');
+?>
 <h4 class="bg-primary p-1 text-white">News..</h4>
 <div class="grid m-auto" style="width: 95%;">
   <div class="left">
@@ -36,24 +39,24 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/jqlouise/files/2019/05/Cambodia-6734-1200x800.jpg?width=960" class="d-block w-100" alt="...">
+          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/96deac42317529.57c87c1411999.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>The books in the best friends for reader </h5>
+            <p>Improves brain connectivity. increases your vocabulary and comprehension. empowers you to empathize with other people.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/jqlouise/files/2019/05/Cambodia-6734-1200x800.jpg?width=960" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+          <img src="https://images.theconversation.com/files/403968/original/file-20210602-27-l6czjd.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Covid-19 in Cambodia</h5>
+            <p>There have been 87,723 confirmed cases of COVID-19 with 1,747 deaths.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/jqlouise/files/2019/05/Cambodia-6734-1200x800.jpg?width=960" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+          <img src="https://blog.trekaroo.com/wp-content/uploads/2017/02/cambodia-angkor-wat-.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Angkor wat in Cambodia</h5>
+            <p>Angkor Wat, located in northwest Cambodia, is the largest religious structure in the world by land area, measuring 162.6 hectares.</p>
           </div>
         </div>
       </div>
@@ -70,43 +73,45 @@
     <div class="card m-2 shadow my-3 bg-body rounded" style="max-width: 540px;">
       <div class="row g-0">
         <div class="col-md-5">
-          <img src="https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/jqlouise/files/2019/05/Cambodia-6734-1200x800.jpg?width=960" class="img-fluid rounded-start w-100" alt="...">
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/10732/production/_119787376_04d9c32f-3d27-47d7-b740-63dc28d161a7.jpg" class="img-fluid rounded-start w-100" alt="...">
         </div>
-        <div class="col">
-          <p class="card-text ms-1">Card title</p>
+        <div class="col p-2">
+          <h6 class="card-text ms-1">Covid: WHO calls for booster pause to vaccinate poorer nations</h6>
         </div>
       </div>
     </div>
     <div class="card m-2 shadow my-3 bg-body rounded" style="max-width: 540px;">
       <div class="row g-0">
         <div class="col-md-5">
-          <img src="https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/jqlouise/files/2019/05/Cambodia-6734-1200x800.jpg?width=960" class="img-fluid rounded-start w-100" alt="...">
+          <img src="https://static.bangkokpost.com/media/content/20210210/c1_2065891_210210122138.jpg" class="img-fluid rounded-start w-100" alt="...">
         </div>
-        <div class="col">
-          <p class="card-text ms-1">Card title</p>
+        <div class="col p-2">
+          <h6 class="card-text ms-1">Covid: However, some will become seriously ill and require medical attention....</h6>
         </div>
       </div>
     </div>
-
+    <div class="card m-2 shadow my-3 bg-body rounded" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <img src="https://cdn.cnn.com/cnnnext/dam/assets/210822081317-kabul-afghanistan-airport-08-16-2021-exlarge-169.jpg" class="img-fluid rounded-start w-100" alt="...">
+        </div>
+        <div class="col p-2">
+          <h6 class="card-text ms-1">Kabul's airport is the epicenter of a desperate and deadly scramble to escape the Taliban...</h6>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- end slide show  -->
   <div class="right">
     <div class="row row-cols-1 row-cols-md-2 m-2 g-2">
       <div class="col">
         <div class="card hover">
-          <img src="https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/jqlouise/files/2019/05/Cambodia-6734-1200x800.jpg?width=960" class="card-img" alt="...">
-          <div class="card-img-overlay text-white">
-            <h5 class="card-title">Card title</h5>
-          </div>
+          <img src="https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/61D8/production/_119784052_gettyimages-1320393601.jpg" class="card-img" alt="...">
         </div>
       </div>
-
       <div class="col">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-          </div>
+        <div class="card hover">
+          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/13B1D/production/_120096608_mediaitem120096607.jpg" class="card-img" alt="...">
         </div>
       </div>
     </div>
@@ -120,7 +125,7 @@
         <div class="col-sm-6 col-md-4 shadow my-3 bg-body rounded">
           <img src="actions/images/news_img/<?=$news['news_img'];?>" class="card-img-top img-thumbnail" alt="...">
           <h6 class="card-title mt-3"> <?=$news['news_title'];?>.... </h6>
-          <a href="#">
+          <a href="?page=news_details&&news_id=<?=$news['news_id']?>">
             <button type="button" class="btn btn-outline-primary btn-sm w-100  my-2">Read more</button>
           </a>
       </div>
@@ -134,26 +139,17 @@
   <div class="row row-cols-1 row-cols-md-3 m-2 g-2 row-cols-sm-2">
       <div class="col">
         <div class="card hover">
-          <img src="https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/jqlouise/files/2019/05/Cambodia-6734-1200x800.jpg?width=960" class="card-img" alt="...">
-          <div class="card-img-overlay text-white">
-            <h5 class="card-title">Card title</h5>
-          </div>
+          <img src="https://mir-s3-cdn-cf.behance.net/projects/404/07e65456925249.Y3JvcCwyNTYzLDIwMDYsMjIxLDA.jpg" class="card-img" alt="...">
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-          </div>
+          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/e6677745595261.5835e5d2f1473.jpg" class="card-img-top" alt="...">
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-          </div>
+          <img src="https://mir-s3-cdn-cf.behance.net/projects/404/ddb05686095159.Y3JvcCwyNjkyLDIxMDUsNjUzLDQ1OQ.jpg" class="card-img-top" alt="...">
         </div>
       </div>
   </div>
@@ -167,8 +163,8 @@
       <div class="col-sm-6 col-md-3 shadow my-3 bg-body rounded">
         <img src="actions/images/book_img/<?=$book['book_img']?>" class="card-img-top img-thumbnail" alt="...">
         <h5 class="card-title"> <?=$book['book_title']?> </h5>
-        <a href="#">
-          <button type="button" class="btn btn-primary btn-sm w-100  my-2">Read more</button>
+        <a href="?page=book_details&&book_id=<?=$book['book_id']?>">
+          <button type="button" class="btn btn-primary w-100  my-2">Read more</button>
         </a>
       </div>
     <?php endforeach;?>

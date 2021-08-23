@@ -3,8 +3,8 @@
   <form action="actions/add_new_model.php" method="post" enctype="multipart/form-data">
     <div class="row g-3">
       <div class="col-sm-7">
-        <label for="news-title" class="form-label">Title the news<span class="text-danger">*</span></label>
-        <input type="text" name="news_title" class="form-control" placeholder="Title here..." aria-label="Title here..." id="news-title">
+        <label for="title" class="form-label">Title the news<span class="text-danger">*</span></label>
+        <input type="text" name="title" class="form-control" placeholder="Title here..." aria-label="Title here..." id="news-title" required>
       </div>
       <div class="col-sm">
         <label for="img" class="form-label">Upload your image<span class="text-danger">*</span></label>
@@ -17,7 +17,7 @@
     <div class="col">
       <div class="mb-3 col-sm-12 col-md-12">
         <label for="exampleFormControlTextarea1" class="form-label">Description the news<span class="text-danger">*</span></label>
-        <textarea class="form-control w-100" name="description" id="exampleFormControlTextarea1" rows="6" placeholder="Description here..."></textarea>
+        <textarea class="form-control w-100" name="sms" id="exampleFormControlTextarea1" rows="6" placeholder="Description here..." required></textarea>
       </div>
     </div>
     <div class="col-12 ">

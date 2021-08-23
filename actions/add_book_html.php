@@ -5,11 +5,11 @@
     <div class="row g-3">
       <div class="col-sm-7">
         <label for="book-title" class="form-label">Title your book<span class="text-danger">*</span></label>
-        <input type="text" class="form-control" name="book_title" placeholder="Title here..." aria-label="Title here..." id="book-title">
+        <input type="text" class="form-control" name="title" placeholder="Title here..." aria-label="Title here..." id="book-title" required>
       </div>
       <div class="col-sm">
         <label for="author" class="form-label">Name's author<span class="text-danger">*</span></label>
-        <input type="text" class="form-control" name="author" placeholder="Name..." aria-label="Name..." id="author">
+        <input type="text" class="form-control" name="author" placeholder="Name..." aria-label="Name..." id="author" required>
       </div>
       <div class="col-sm-12">
         <label for="img" class="form-label">Upload your image<span class="text-danger">*</span></label>
@@ -22,7 +22,7 @@
     <div class="col">
       <div class="mb-3 col-sm-12 col-md-12">
         <label for="exampleFormControlTextarea1" class="form-label">Description of your books<span class="text-danger">*</span></label>
-        <textarea class="form-control w-100" name="description" id="exampleFormControlTextarea1" rows="6" placeholder="Description here..."></textarea>
+        <textarea class="form-control w-100" name="description" id="exampleFormControlTextarea1" rows="6" placeholder="Description here..." required></textarea>
       </div>
     </div>
     <div class="col-12 ">
